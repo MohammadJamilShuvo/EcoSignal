@@ -38,3 +38,37 @@ def test_breakpoint():
 
 def test_power():
     assert power_screen(repetitions=8).positive_rate.between(0,1).all()
+
+
+def test_missing_traits_are_rejected():
+    m, d, t, _ = data()
+    with pytest.raises(ValueError, match="Missing thermal affinities"):
+        build_indicators(m, d, t.iloc[:-1].copy())
+
+def test_site_year_mismatch_rejected():
+    m, d, t, _ = data()
+    with pytest.raises(ValueError, match="identical site-year coverage"):
+        build_indicators(m.iloc[:-1].copy(), d, t)
+
+def test_missing_traits_do_not_change_richness_silently():
+    m, d, t, _ = data()
+    t = t.loc[t.taxon != t.taxon.iloc[0]].copy()
+    with pytest.raises(ValueError, match="Missing thermal affinities"):
+        build_indicators(m, d, t)
+
+def test_cti_exact_known_case():
+    import pandas as pd
+    m = pd.DataFrame({"site": ["A"], "year": [2005]})
+    d = pd.DataFrame({"site": ["A", "A"], "year": [2005, 2005],
+                      "taxon": ["cold", "warm"], "detected": [1, 1]})
+    t = pd.DataFrame({"taxon": ["cold", "warm"], "thermal_affinity": [10.0, 20.0]})
+    r = build_indicators(m, d, t)
+    assert r.richness.iloc[0] == 2
+    assert r.cti.iloc[0] == 15.0
+
+def test_missing_cti_is_not_a_negative_alert():
+    import pandas as pd
+    frame = pd.DataFrame({"site": ["A", "A"], "year": [2005, 2006],
+                          "cti": [15.0, np.nan]})
+    out = reference_alerts(frame, baseline_end=2005)
+    assert pd.isna(out.cti_alert.iloc[1])
