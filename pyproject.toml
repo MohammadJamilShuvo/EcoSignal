@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "ecosignal-biodiversity"
+version = "0.3.0"
+description = "Statistical assessment of molecular biodiversity indicators and monitoring design"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "pandas>=2,<3", "scipy>=1.10,<2", "matplotlib>=3.7,<4"]
+[tool.setuptools.packages.find]
+include = ["ecosignal*"]

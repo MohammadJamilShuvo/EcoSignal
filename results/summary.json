@@ -1,0 +1,35 @@
+{
+  "scenario": "synthetic only",
+  "trends": [
+    {
+      "metric": "richness",
+      "estimate_per_year": 0.07172342621259255,
+      "ci_low": -0.01779325765393697,
+      "ci_high": 0.16736326109391267,
+      "bootstrap_replicates": 250,
+      "n_sites": 12
+    },
+    {
+      "metric": "cti",
+      "estimate_per_year": 0.0357180794146392,
+      "ci_low": 0.027398396249805525,
+      "ci_high": 0.04457124804160129,
+      "bootstrap_replicates": 250,
+      "n_sites": 12
+    },
+    {
+      "metric": "jaccard_turnover",
+      "estimate_per_year": -0.0008752685431791652,
+      "ci_low": -0.002967451431990735,
+      "ci_high": 0.001076139207371345,
+      "bootstrap_replicates": 250,
+      "n_sites": 12
+    }
+  ],
+  "breakpoint_screen": {
+    "break_year": 2008,
+    "bic": -315.4569647370598,
+    "delta_bic_vs_linear": -0.5986
+  },
+  "disclaimer": "Statistical screens, not validated ecological inference or calibrated authority thresholds."
+}

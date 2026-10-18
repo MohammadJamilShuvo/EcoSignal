@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-label="EcoSignal workflow: synthetic ecological process and detection histories; indicator computation; statistical inference, reference screening and monitoring design; reproducible reporting">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f2f7f6"/><stop offset="1" stop-color="#e8eff8"/></linearGradient><marker id="arr" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0,0 L11,5.5 L0,11 Z" fill="#406a7e"/></marker></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="60" y="66" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#183346">EcoSignal | Analytical workflow</text>
+<text x="60" y="98" font-family="Arial,sans-serif" font-size="17" fill="#557184">From molecular observations to evaluated indicators and monitoring uncertainty</text>
+<g font-family="Arial,sans-serif">
+<rect x="55" y="145" width="295" height="120" rx="16" fill="#ffffff" stroke="#9bb9bd" stroke-width="2"/>
+<rect x="55" y="145" width="295" height="12" rx="6" fill="#32848b"/>
+<text x="80" y="193" font-size="21" font-weight="700" fill="#183346">1  Monitoring observations</text><text x="80" y="220" font-size="17" fill="#476573">Site × year × taxon detections</text><text x="80" y="242" font-size="15" fill="#687f8d">Environmental data • taxon traits</text>
+<rect x="453" y="145" width="295" height="120" rx="16" fill="#ffffff" stroke="#9bb9bd" stroke-width="2"/>
+<rect x="453" y="145" width="295" height="12" rx="6" fill="#32848b"/>
+<text x="478" y="193" font-size="21" font-weight="700" fill="#183346">2  Biodiversity indicators</text><text x="478" y="220" font-size="17" fill="#476573">Richness • dissimilarity</text><text x="478" y="242" font-size="15" fill="#687f8d">Community thermal index</text>
+<rect x="851" y="145" width="295" height="120" rx="16" fill="#ffffff" stroke="#9bb9bd" stroke-width="2"/>
+<rect x="851" y="145" width="295" height="12" rx="6" fill="#32848b"/>
+<text x="876" y="193" font-size="21" font-weight="700" fill="#183346">3  Statistical analysis</text><text x="876" y="220" font-size="17" fill="#476573">Site-adjusted trends</text><text x="876" y="242" font-size="15" fill="#687f8d">Breakpoint and reference screens</text>
+<path d="M352 205 H445" stroke="#406a7e" stroke-width="3" marker-end="url(#arr)"/><path d="M750 205 H843" stroke="#406a7e" stroke-width="3" marker-end="url(#arr)"/>
+<path d="M996 267 V316 H600 V357" stroke="#406a7e" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+<rect x="453" y="365" width="295" height="110" rx="16" fill="#ffffff" stroke="#aab5d2" stroke-width="2"/>
+<rect x="453" y="365" width="295" height="12" rx="6" fill="#6571a6"/>
+<text x="478" y="412" font-size="21" font-weight="700" fill="#183346">4  Monitoring simulations</text><text x="478" y="440" font-size="16" fill="#476573">Duration • frequency • power</text><text x="478" y="460" font-size="15" fill="#687f8d">Known truth and error scenarios</text>
+<path d="M600 479 V524" stroke="#406a7e" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="300" y="532" width="600" height="77" rx="16" fill="#204c60"/>
+<text x="600" y="563" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">5  Reproducible research outputs</text>
+<text x="600" y="589" text-anchor="middle" font-size="16" fill="#dce9f0">Figures • machine-readable tables • model diagnostics • tests</text>
+<text x="60" y="606" font-size="14" fill="#577283">Example run: fixed-seed synthetic data; biological validation requires empirical monitoring</text>
+</g></svg>

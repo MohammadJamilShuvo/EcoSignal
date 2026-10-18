@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If using this software, cite the repository and appropriate methodological references."
+authors:
+  - family-names: Shuvo
+    given-names: Mohammad Jamil
+title: "EcoSignal: Statistical assessment of DNA-derived biodiversity indicators and ecological monitoring design"
+repository-code: https://github.com/MohammadJamilShuvo/EcoSignal
