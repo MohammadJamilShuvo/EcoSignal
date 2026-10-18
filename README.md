@@ -125,9 +125,9 @@ The following are distinct statistical extensions, rather than results demonstra
 
 Molecular biodiversity monitoring requires a distinction between *detection*, *community composition*, and *inference about ecological change*. The empirical motivation for this framework includes work on eDNA sampling uncertainty and ecological biodiversity responses:
 
-- Shuvo, M. J., Tabassum, T., & Segelbacher, G. (2025). Optimizing eDNA metabarcoding techniques for assessing arthropod communities in tree-related microhabitats. *Environmental DNA*, 7, e70064. https://doi.org/10.1002/edn3.70064
-- Shuvo, M. J., Wohlwend, M., Heer, K., Paillet, Y., & Segelbacher, G. (2026). Influence of deadwood, tree-related microhabitats, and forest structural features on saproxylic arthropod diversity. *Ecology and Evolution*, 16, e73600. https://doi.org/10.1002/ece3.73600
-- Shuvo, M. J., Segelbacher, G., & Geue, J. C. (2026). PoLoCo: A reproducible pooled low-coverage workflow for draft genome assembly and allele frequency analysis from ethanol-preserved small non-model invertebrates. *GigaByte*. https://doi.org/10.46471/gigabyte.195
+- **Shuvo, M. J.**, Tabassum, T., & Segelbacher, G. (2025). Optimizing eDNA metabarcoding techniques for assessing arthropod communities in tree-related microhabitats. *Environmental DNA*, 7, e70064. https://doi.org/10.1002/edn3.70064
+- **Shuvo, M. J.**, Wohlwend, M., Heer, K., Paillet, Y., & Segelbacher, G. (2026). Influence of deadwood, tree-related microhabitats, and forest structural features on saproxylic arthropod diversity. *Ecology and Evolution*, 16, e73600. https://doi.org/10.1002/ece3.73600
+- **Shuvo, M. J.**, Segelbacher, G., & Geue, J. C. (2026). PoLoCo: A reproducible pooled low-coverage workflow for draft genome assembly and allele frequency analysis from ethanol-preserved small non-model invertebrates. *GigaByte*. https://doi.org/10.46471/gigabyte.195
 
 These publications motivate the statistical questions; their underlying empirical datasets are **not included** in the EcoSignal demonstration.
 
