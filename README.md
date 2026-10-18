@@ -6,7 +6,7 @@ EcoSignal is an open-source Python framework for quantifying changes in DNA-deri
 
 The central question is **whether an apparent change in a molecular biodiversity indicator represents an interpretable ecological signal, and how sensitive that inference is to the observation and monitoring design.**
 
-![EcoSignal analytical workflow](assets/workflo.svg)
+![EcoSignal analytical workflow](assets/workflow.svg)
 
 ## Research questions
 
